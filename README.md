@@ -20,7 +20,8 @@ The main file, `main.py`, accesses the chosen decision-making module with the fo
 
 from brain_modules.change10_BTC_ETH import request_updated_positions_dict_format
 
-The function `request_updated_positions_dict_format` returns a dictionary containing the tickers and the sizes of positions in coins that should be held at the current moment. The format of the dictionary is as follows:
+The function `request_updated_positions_dict_format` returns a dictionary containing the tickers and the sizes of positions
+in coins that should be held at the current moment. The format of the dictionary is as follows:
 
 {'BTCUSDT': -0.0, 'ETHUSDT': -0.01}
 
@@ -30,7 +31,8 @@ Logs are written to the `bot.log` file located in the root folder of the project
 
 ## API Keys and Secrets
 
-The `keys.py` file should be placed in the main project folder. This file is not uploaded to GitHub; you need to create it manually and add your API keys, Telegram token, and chat ID:
+The `keys.py` file should be placed in the main project folder. This file is not uploaded to GitHub; you need to create
+it manually and add your API keys, Telegram token, and chat ID:
 
 API_KEY = "..."
 API_SECRET = "..."
