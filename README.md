@@ -34,7 +34,6 @@ The `keys.py` file should be placed in the main project folder. This file is not
 
 API_KEY = "..."
 API_SECRET = "..."
-```
 
 A function to duplicate logs to Telegram will be added in a later version.
 
