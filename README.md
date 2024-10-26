@@ -9,7 +9,7 @@ In the `config.py` file, the following parameters are specified:
 
 - `time_frame`: The time frame in minutes for the trading strategy.
 - `mode`: Set to `0` for cross margin and `1` for isolated margin.
-- `backup_balance`: The amount of funds held outside the futures account that can be used
+- `reserve_balance`: The amount of funds held outside the futures account that can be used
 to replenish the futures account during drawdowns.
 - Other essential settings and variables that may be utilized by the decision-making module.
 
